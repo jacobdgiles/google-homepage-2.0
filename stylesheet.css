@@ -1,0 +1,55 @@
+body {
+    background-color: darkslategrey;
+    font-family: Roboto, system-ui, sans-serif;
+}
+.nav {
+    text-align: right;
+    display:inline-flex;
+    float: right;
+}
+a { 
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+a:hover { 
+    text-decoration: underline;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+button { 
+    
+    background-color: darkslategrey;
+    border-color: transparent;
+    padding: 10px 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+button:hover { 
+    background-color: grey;
+    border-color: transparent;
+    padding: 10px 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#app-button {
+    display: grid;
+    grid-template-columns: 7px 7px 7px;
+    grid-template-rows: 7px 7px 7px;
+   
+}
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+
+h1 {
+    color: blueviolet;
+}
