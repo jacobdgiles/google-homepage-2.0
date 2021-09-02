@@ -50,6 +50,14 @@ button:hover {
 }
 
 
-h1 {
-    color: blueviolet;
+#logo {
+    color: white;
+    font-family: 'Product Sans Light', sans-serif;
+    font-size: 90px;
+    
+}
+
+#logo-placement {
+    text-align: center;
+    padding-top: 5%;
 }
