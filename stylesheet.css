@@ -56,10 +56,12 @@ button:hover {
     text-align: center;
     padding-top: 5%;
 }
-.container {
-    margin-left: 5%;
+.search-bar{
+    
     width: 500px;
     height: 60px;
+    justify-content: flex center;
+    margin: auto;
     
   } 
   
@@ -69,23 +71,24 @@ button:hover {
   }
   .search-field {
     width: 100%;
-    padding: 10px 0px 10px 15px;
+    padding-left: 10%;
     border: none;
     border-radius: 100px;
     outline: none;
+   
   }
   
   .search-button {
     background: transparent;
     border: none;
     outline: none;
-    margin-left: -50px;
+    margin-left: -500px;
   }
   
   .search-button img {
     width: 20px;
     height: 20px;
-    object-fit: cover;
+    
   }
 
 
