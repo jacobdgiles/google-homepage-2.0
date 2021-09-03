@@ -20,7 +20,6 @@ a:hover {
     padding-top: 10px;
 }
 button { 
-    
     background-color: darkslategrey;
     border-color: transparent;
     padding: 10px 15px;
@@ -48,16 +47,50 @@ button:hover {
     width: 5px;
     height: 5px;
 }
-
-
 #logo {
     color: white;
     font-family: 'Product Sans Light', sans-serif;
-    font-size: 90px;
-    
+    font-size: 90px;   
 }
-
 #logo-placement {
     text-align: center;
     padding-top: 5%;
 }
+.container {
+    margin-left: 5%;
+    width: 500px;
+    height: 60px;
+    
+  } 
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 100%;
+    padding: 10px 0px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -50px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+
+
+
+
+    
+

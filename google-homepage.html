@@ -1,6 +1,7 @@
 <!DOCTYPE html>  
 <html>  
 <head> 
+    <link rel="reset" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
     <title>Google Homepage</title>  
@@ -22,13 +23,15 @@
     </div>
 </button>
 </nav>
-<br>
 <div id="logo-placement">
-<h1 id="logo">Google</h1> 
-</div>
-<div id="search-bar">
-    <input type="search">   
-</div>
-
+<h1 id="logo">Google</h1> </div> 
+<div class="container">
+    <form action="/" method="GET" class="form">
+      <input type="search" placeholder="Search" class="search-field" />
+      <button type="submit" class="search-button">
+        <img src="search.png">
+      </button>
+    </form>
+  </div>
 </body>  
 </html>  
